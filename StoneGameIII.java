@@ -1,4 +1,6 @@
-public String stoneGameIII(int[] stoneValue) {
+package lcquestions;
+public class StoneGameIII {
+     public String stoneGameIII(int[] stoneValue) {
      int n = stoneValue.length;
         int[] dp = new int[n + 1];
         for (int i = n - 1; i >= 0; i--) {
@@ -16,4 +18,4 @@ public String stoneGameIII(int[] stoneValue) {
         else
             return "Tie";
     }
-}    
+}
